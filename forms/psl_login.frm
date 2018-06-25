@@ -230,10 +230,17 @@ uuid:"E0613C8F-36DF-49B5-95B4-A1CF577C079B"
 },
 {
 anchors:3,
+customProperties:"methods:{\
+onActionMethodID:{\
+arguments:null,\
+parameters:null\
+}\
+}",
 extendsID:"3C6C1874-CC4E-4B7D-BEA1-79D47F19DDBF",
 formIndex:18,
 imageMediaID:"0",
 location:"660,255",
+onActionMethodID:"297A5F8F-CDA2-4430-8CCF-1311280C46BB",
 rolloverCursor:12,
 styleClass:"btn_locker",
 typeid:7,

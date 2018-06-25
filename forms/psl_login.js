@@ -106,3 +106,16 @@ function hideMessage()
 {
 	plugins.WebClientUtils.executeClientSideJS('hideMessage();');
 }
+/**
+ * Perform the element default action.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"297A5F8F-CDA2-4430-8CCF-1311280C46BB"}
+ */
+function onAction$btn_recupera_password(event) 
+{
+	globals.ma_utl_showWarningDialog('In caso di dimenticanza della password, contattare direttamente lo Studio.', 'Recupero password');
+}
